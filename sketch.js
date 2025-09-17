@@ -1,11 +1,11 @@
 function setup() {
-  // create Black Cat
-  let blackCat = new Cat("Blacky", "straight");
-  let redCat = new Cat("Tiger");
-  
-  //let them talk
-  blackCat.talk();
-  blackCat.expressYourself();
-  
-  redCat.talk();
+  // create Tigers
+  let royalTiger = new Tiger("Sheru", "Roarrr", "striped");
+  let bengalTiger = new Tiger("Bagh");
+
+  // let them talk
+  royalTiger.talk();
+  royalTiger.expressYourself();
+
+  bengalTiger.talk();
 }
